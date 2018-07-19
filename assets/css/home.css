@@ -1,0 +1,26 @@
+body {
+	background: url(../images/spaceskynight.jpg) no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav-link{
+		color: white;
+		margin-top: 10px;
+	}
+	#cover{
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		display: table;
+		margin-top: 150px;
+	}
+
+}
+
+@media only screen and (min-width: 600px){
+	body{
+		background-color: lightblue;
+	}
+}  
