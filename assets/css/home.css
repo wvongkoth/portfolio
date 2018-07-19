@@ -3,6 +3,7 @@ body {
 	background-size: cover;
 	text-align: center;
 	color: white;
+	font-family: 'Quicksand', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
