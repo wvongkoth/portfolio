@@ -13,15 +13,22 @@ body {
 	}
 	#cover{
 		text-transform: uppercase;
-		letter-spacing: 10px;
-		display: table;
-		margin-top: 150px;
+		letter-spacing: 5px;
+		margin: 150px auto;
 	}
 
 }
 
 @media only screen and (min-width: 600px){
-	body{
-		background-color: lightblue;
+	.nav-link{
+		color: white;
+		margin-top: 10px;
+		font-size: 15px;
+	}
+	#cover{
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		display: table;
+		margin: 200px auto;
 	}
 }  
