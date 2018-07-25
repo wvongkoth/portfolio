@@ -5,11 +5,16 @@ body {
 	color: white;
 	font-family: 'Quicksand', sans-serif;
 }
-
+/*mobile view */
 @media only screen and (max-width: 600px) {
+	.nav {
+		margin-right: 100px;
+		padding: auto;
+	}
 	.nav-link{
 		color: white;
 		margin-top: 10px;
+		font-size: 14px;
 	}
 	#cover{
 		text-transform: uppercase;
@@ -17,8 +22,9 @@ body {
 		margin: 150px auto;
 	}
 
-}
 
+}
+/*tablet view */
 @media only screen and (min-width: 600px){
 	.nav-link{
 		color: white;
@@ -28,7 +34,11 @@ body {
 	#cover{
 		text-transform: uppercase;
 		letter-spacing: 10px;
-		display: table;
 		margin: 200px auto;
 	}
-}  
+	#cover-heading{
+		font-size: 45px;
+	}
+}
+
+/*laptop view */
